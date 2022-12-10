@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div class="container w-[96%] lg:w-[90%] mx-auto py-12" id="about">
+        <div class="container w-[96%] lg:w-[90%] mx-auto py-12" id="about" data-aos="fade-up">
             <h2 className='text-4xl text-left md:text-center pb-8 font-semibold'>Learn More About Me</h2>
 
             <div class=" text-justify mt-5">

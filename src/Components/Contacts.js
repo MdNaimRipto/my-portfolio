@@ -25,6 +25,8 @@ const Contacts = () => {
     };
     return (
         <section
+            data-aos="fade-up"
+            id="contact"
             className='my-12 py-12 bg-[#00000042]'>
 
             <div className='container w-[96%] lg:w-2/6 md:w-3/5 mx-auto text-center text-white'>
