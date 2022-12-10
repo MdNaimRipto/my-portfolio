@@ -5,11 +5,13 @@ import logo from "../Assets/images/logo.png"
 const Navbar = () => {
     const MenuItems =
         <>
-            <li><a href="/home" alt="">HOME</a></li>
+            <li><a href="#home" alt="">HOME</a></li>
             <li><a href="/projects" alt="">PROJECTS</a></li>
             <li><a href="/skills" alt="">SKILLS</a></li>
             <li><a href="/contact" alt="">CONTACT ME</a></li>
-            <li><a href={resume} alt="" download>DOWNLOAD RESUME</a></li>
+            <button className='btn btn-outline btn-primary '>
+                <a href={resume} alt="" download>DOWNLOAD RESUME</a>
+            </button>
         </>
     return (
         <div className="navbar bg-base-100 py-6 container mx-auto border-b border-gray-300">
