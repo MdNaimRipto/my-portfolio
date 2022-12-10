@@ -2,8 +2,10 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='container w-[96%] lg:w-[90%] mx-auto mb-12' data-aos="fade-up">
-            <h2 className='text-left lg:text-center text-4xl font-bold mb-8'>My Skills</h2>
+        <div
+            id="skills"
+            className='container w-[96%] lg:w-[90%] mx-auto my-12' data-aos="fade-up">
+            <h2 className='text-left md:text-center text-4xl font-bold mb-8'>My Skills</h2>
             <div className='flex justify-between gap-5'>
                 <div className='w-full'>
                     <p>HTML5</p>
