@@ -6,7 +6,7 @@ const Navbar = () => {
     const MenuItems =
         <>
             <li><a href="#home" alt="">HOME</a></li>
-            <li><a href="/projects" alt="">PROJECTS</a></li>
+            <li><a href="#projects" alt="">PROJECTS</a></li>
             <li><a href="/skills" alt="">SKILLS</a></li>
             <li><a href="/contact" alt="">CONTACT ME</a></li>
             <button className='btn btn-outline btn-primary '>
