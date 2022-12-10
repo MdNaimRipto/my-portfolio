@@ -8,6 +8,7 @@ const Navbar = () => {
             <li><a href="#home" alt="">HOME</a></li>
             <li><a href="#projects" alt="">PROJECTS</a></li>
             <li><a href="#skills" alt="">SKILLS</a></li>
+            <li><a href="#about" alt="">ABOUT ME</a></li>
             <li><a href="/contact" alt="">CONTACT ME</a></li>
             <button className='btn btn-outline btn-primary '>
                 <a href={resume} alt="" download>DOWNLOAD RESUME</a>
@@ -27,7 +28,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <a href="/" alt=""
-                    className="font-bold flex justify-between items-center w-[64%] md:w-[42%] lg:w-[38%]">
+                    className="font-bold flex justify-between items-center w-[64%] md:w-[42%]">
                     <div className='w-1/4'>
                         <img src={logo} alt="" className='rounded-full' />
                     </div>
