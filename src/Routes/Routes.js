@@ -22,10 +22,10 @@ export const router = createBrowserRouter([
                 element: <Blogs />
             },
             {
-                path: "/project/:id",
+                path: "/projectDetails/:id",
                 element: <ProjectDetails />,
                 loader: async ({ params }) => {
-                    return fetch(`projectDetails.json/${params.id}`)
+                    return fetch(`http://localhost:5000/productDetails/${params.id}`)
                 }
             }
         ]

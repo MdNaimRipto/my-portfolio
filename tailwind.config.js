@@ -23,7 +23,7 @@ module.exports = {
 
           "info": "#0092D6",
 
-          "success": "#6CB288",
+          "success": "#15803d",
 
           "warning": "#facc15",
 
