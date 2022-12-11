@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Recycle Hub",
+        "projectFor": "Mern-Stack Project",
+        "shortInfo": "A website for buying and selling cars.",
+        "img": "https://i.ibb.co/bBf5XYx/project1.jpg",
+        "link": "https://recycle-hub-e5949.web.app/"
+    },
+    {
+        "id": 2,
+        "name": "The Foodie Express",
+        "projectFor": "Mern-Stack Project",
+        "shortInfo": "A website for ordering foods.",
+        "img": "https://i.ibb.co/9cyR8NF/project2.jpg",
+        "link": "https://the-foodie-express.firebaseapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Learn Programming",
+        "projectFor": "Full-Stack Project",
+        "shortInfo": "A full-stack website for purchasing new Courses.",
+        "img": "https://i.ibb.co/pvJFzXv/project3.png",
+        "link": "https://learn-programming-96a3d.web.app/"
+    },
+    {
+        "id": 4,
+        "name": "Fitness Club",
+        "projectFor": "Front-end ReactJS Project",
+        "shortInfo": "A front-end website for showing my ReactJS skill.",
+        "img": "https://i.ibb.co/B4Q7xPH/project4.webp",
+        "link": "https://fitness-club-co.netlify.app/"
+    }
+]
