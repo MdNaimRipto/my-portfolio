@@ -46,7 +46,7 @@ const Projects = () => {
                                             </button>
                                         </a>
                                         <Link to={`/project/${project.id}`}>
-                                            <button className='btn btn-warning btn-sm'>
+                                            <button className='btn btn-outline btn-warning btn-sm'>
                                                 View Details
                                             </button>
                                         </Link>
