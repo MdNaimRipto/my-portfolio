@@ -7,7 +7,7 @@ const Footer = () => {
         <footer>
             <h2 className='text-2xl text-center font-bold'>MD Naimur Rahman</h2>
             <div className='flex justify-between items-center w-[65%] md:w-[45%] mx-auto'>
-                <div className='flex justify-between items-center w-[30%] gap-4 mx-auto my-8'>
+                <div className='flex justify-between items-center w-[65%] md:w-1/2 lg:w-[180px] gap-4 mx-auto my-8 container'>
                     <a
                         href="https://www.facebook.com/mdnaimur.rahman.50309"
                         target="_blank" rel="noreferrer">

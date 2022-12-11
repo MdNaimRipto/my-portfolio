@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <div
             id='home'
-            className="px-4 py-16 mx-auto w-[96%] md:w-[96%] lg:w-4/5 md:px-24 lg:px-8 lg:py-20 bg-[#00000042] rounded-2xl my-12">
+            className="px-4 py-16 mx-auto w-[96%] md:w-[96%] lg:w-4/5 md:px-24 lg:px-8 lg:py-20 bg-[#00000042] rounded-2xl my-12 container">
             <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
                 <div className='w-4/5 hidden lg:block' data-aos="fade-right">
                     <img
