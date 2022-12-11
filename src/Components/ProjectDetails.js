@@ -8,6 +8,8 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
+import { BsBoxArrowUpRight } from "react-icons/bs"
+import { AiFillGithub } from "react-icons/ai"
 
 import { FreeMode, Navigation, Thumbs } from "swiper";
 
@@ -32,7 +34,7 @@ const ProjectDetails = () => {
                         >
                             {
                                 details.screenshots.map(ss =>
-                                    <SwiperSlide>
+                                    <SwiperSlide key={ss.id}>
                                         <PhotoProvider>
                                             <PhotoView src={ss.img}>
                                                 <img
@@ -52,15 +54,48 @@ const ProjectDetails = () => {
                             <h2 className="max-w-lg mb-3 font-sans text-3xl font-bold sm:text-4xl sm:leading-none">
                                 {details.name}
                             </h2>
-                            <p className="text-base md:text-lg mb-2">
-                                <span className='font-bold text-primary'>{details.projectFor}</span>
+                            <p className="">
+                                <span className=''></span>
                             </p>
+                            <div className='flex justify-between items-center w-[65%] md:w-[45%] text-base md:text-lg mb-2'>
+                                <h2 className='font-bold text-primary'>{details.projectFor}</h2>
+                                <div className='flex justify-between items-center w-[30%] gap-4'>
+                                    <a
+                                        href={details.siteLink}
+                                        target="_blank" rel="noreferrer">
+                                        <button className='btn btn-square hover:btn-primary text-white'>
+                                            <BsBoxArrowUpRight className="text-lg" />
+                                        </button>
+                                    </a>
+                                    <a
+                                        className="tooltip" data-tip="Client-Side Repository"
+                                        href={details.clientLink}
+                                        target="_blank"
+                                        rel="noreferrer">
+                                        <button className='btn btn-square hover:btn-primary text-white'>
+                                            <AiFillGithub className="text-lg" />
+                                        </button>
+                                    </a>
+                                    {
+                                        details.serverLink &&
+                                        <a
+                                            className="tooltip" data-tip="Server-Side Repository"
+                                            href={details.serverLink}
+                                            target="_blank"
+                                            rel="noreferrer">
+                                            <button className='btn btn-square hover:btn-primary text-white'>
+                                                <AiFillGithub className="text-lg" />
+                                            </button>
+                                        </a>
+                                    }
+                                </div>
+                            </div>
                             <div className="text-base md:text-lg mb-6">
                                 <span className='font-semibold pb-2 block'>Features & Technologies:</span>
                                 <ul>
                                     {
                                         details.details.map(detail =>
-                                            <div className='flex items-center mb-2'>
+                                            <div className='flex items-center mb-2' key={detail.id}>
                                                 <FiCheckCircle className='text-success mr-2' />
                                                 <li
                                                     key={detail.id}
