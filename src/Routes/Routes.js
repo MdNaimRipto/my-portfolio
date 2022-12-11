@@ -25,7 +25,7 @@ export const router = createBrowserRouter([
                 path: "/projectDetails/:id",
                 element: <ProjectDetails />,
                 loader: async ({ params }) => {
-                    return fetch(`http://localhost:5000/productDetails/${params.id}`)
+                    return fetch(`https://my-portfolio-server-three.vercel.app/productDetails/${params.id}`)
                 }
             }
         ]
